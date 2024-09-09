@@ -30,16 +30,15 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 18px;
-  gap: 18px;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -49,23 +48,24 @@ a {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 16px;
 }
 
 button {
-  padding: 6px 14px 6px 14px;
+  padding: 8px 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
   background-color: #eeeeee;
 }
