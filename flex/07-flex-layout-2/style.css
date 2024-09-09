@@ -46,7 +46,7 @@ ul {
 }
 
 li {
-  padding: 8px;
+  margin-bottom: 16px;
 }
 
 a {
@@ -58,13 +58,15 @@ a {
 .header {
   font-weight: 900;
   font-size: 32px;
-  align-content: center;
+  display: flex;
+  align-items: center;
   padding-left: 16px;
 }
 
 .footer {
-  text-align: center;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mid-section {
@@ -81,11 +83,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  gap: 30px;
+  gap: 32px;
 }
 
 .card {
   width: 300px;
-  height: 250px;
-  padding: 14px;
+  padding: 16px;
 }
