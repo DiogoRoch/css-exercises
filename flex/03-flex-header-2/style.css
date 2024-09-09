@@ -56,13 +56,7 @@ ul {
   padding: 8px;
 }
 
-.left-items {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.right-items {
+.left-items, .right-items {
   display: flex;
   align-items: center;
   gap: 16px;
