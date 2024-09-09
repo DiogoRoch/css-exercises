@@ -28,11 +28,12 @@ img {
 
 /* My code */
 
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 32px;
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
 }
 
 .images {
@@ -41,13 +42,6 @@ img {
   gap: 52px;
 }
 
-.barberry, .chilli, .pepper, .saffron {
-  width: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.images .text {
-  text-align: center;
+.info {
+  max-width: 200px;
 }
